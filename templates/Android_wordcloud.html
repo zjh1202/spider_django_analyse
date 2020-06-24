@@ -1,0 +1,5524 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+{% block content %}
+<head>
+    <meta charset="UTF-8">
+    <title>Awesome-pyecharts</title>
+    
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts-wordcloud.min.js"></script>
+    
+</head>
+<body>
+    <div id="52359700c5e4425196872ecd7f4a4778" class="chart-container" style="width:1200px; height:800px;left: 300px; top: 100px;"></div>
+    <script>
+        var chart_52359700c5e4425196872ecd7f4a4778 = echarts.init(
+            document.getElementById('52359700c5e4425196872ecd7f4a4778'), 'white', {renderer: 'canvas'});
+        
+        var option_52359700c5e4425196872ecd7f4a4778 = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "wordCloud",
+            "name": "Android\u5206\u6790",
+            "shape": "circle",
+            "rotationRange": [
+                -90,
+                90
+            ],
+            "rotationStep": 45,
+            "girdSize": 20,
+            "sizeRange": [
+                6,
+                66
+            ],
+            "data": [
+                {
+                    "name": "PC\u7aef",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,132,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,106,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5e73\u53f0",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,39,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ee3\u7801\u89c4\u8303",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,88,13)"
+                        }
+                    }
+                },
+                {
+                    "name": "IMHTML",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,71,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5c0f\u7a0b\u5e8f",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,102,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "Java",
+                    "value": 38,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,30,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u722c\u866b\u6280\u672f",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(120,58,0)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u524d\u7aef\u5f00\u53d1\u5b89\u5353",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,72,24)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u524d\u7aef\u5f00\u53d1\u6846\u67b6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,55,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "web\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,39,9)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9879\u76ee\u5f00\u53d1\u7ecf\u9a8c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,37,146)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7a0b\u5f00\u53d1\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,7,141)"
+                        }
+                    }
+                },
+                {
+                    "name": "Swift",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,84,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u540e\u7aef\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,138,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "OKhttpSwift\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,23,139)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-c",
+                    "value": 30,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,68,18)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089\u591a\u7ebf\u7a0b",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,83,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089\u8bbe\u8ba1\u6a21\u5f0f\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,90,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "APP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,110,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4eba\u5de5\u667a\u80fd",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(100,112,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6846\u67b6\u539f\u7406Socket",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,7,89)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK",
+                    "value": 30,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,93,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "D",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,92,48)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u63a5\u53e3\u8bbe\u8ba1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,102,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7a0b\u4e60\u60efKotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,125,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u7aef",
+                    "value": 38,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,3,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "UI\u63a7\u4ef6",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,35,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "ui\u5e03\u5c40Kotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,13,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u8f6f\u4ef6\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,89,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(81,139,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5237\u8138\u652f\u4ed8",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(63,102,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u652f\u4ed8",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,128,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1\u5de5\u7a0b\u5e08\u8ba1\u7b97\u673a\u8f6f\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,83,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "RxJava",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,16,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "Retrofit",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(131,149,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "OKhttp",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(63,5,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u5b9a\u4e49\u63a7\u4ef6Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(25,38,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "C++",
+                    "value": 15,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,45,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u5f00\u53d1",
+                    "value": 15,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,24,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7801\u98ce\u683cSwift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,52,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "AppStore",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,34,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u4e0a\u67b6\u6e38\u620f\u5e73\u53f0",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(42,40,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7231\u6e38\u620f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(142,119,107)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u6e38\u620f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,153,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fd0\u8425\u52a9\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,112,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "AppStore\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,69,5)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-c\u7f16\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,107,39)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u76f8\u5173Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,99,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u67b6\u6784\u5e08",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,158,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "Swift\u8bed\u8a00",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,25,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u9879\u76ee",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,144,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-cFlutter",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,56,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u5b9a\u4e49view",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,105,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "JNI\u7248\u672c\u517c\u5bb9",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,127,62)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ee3\u7801\u67b6\u6784",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,94,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5e73\u53f0",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,121,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "TCP\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(159,160,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u624b\u6e38",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(137,106,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "Xcode",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,119,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "mac\u5f00\u53d1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,21,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u9879\u76ee",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(33,10,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u9006\u5411",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,49,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "apktool",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,64,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53cd\u7f16\u8bd1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,64,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cbe\u901aandroid",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,82,49)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u8bbe\u8ba1\u6a21\u5f0f",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,35,51)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u7ecf\u9a8c",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,148,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u79fb\u52a8\u7aef",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,159,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "Python",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,145,39)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e38\u620fAndroid",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,115,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353APP\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,73,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353",
+                    "value": 9,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,53,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fdc\u7a0b\u529e\u516c\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,148,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,79,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "Object\u97f3\u89c6\u9891\u7f16\u89e3\u7801",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,156,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 21,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(84,139,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "socket\u6280\u672f\u5b89\u5353APP\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,102,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "Framework",
+                    "value": 10,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,53,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "StudioSwift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,159,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "swift\u7f16\u7a0b",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,18,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u6301\u4e45\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(128,17,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5e73\u53f0\u5f00\u53d1\u673a\u623f\u8fd0\u7ef4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,37,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u8fd0\u7ef4",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,114,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u786c\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,101,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u786c\u4ef6\u6545\u969c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,66,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u673a\u623f\u7ba1\u7406SQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,105,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u5de5\u7a0b\u5e08",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,44,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u8baf\u4e32\u53e3",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,98,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5d4c\u5165\u5f0f\u5f00\u53d1\u6e38\u620f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,89,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e90\u7801\u9605\u8bfb",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,154,88)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u6280\u672f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,93,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u5b58\u50a8\u6e38\u620f\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(50,43,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e38\u620f",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,138,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "JNI\u5c0f\u7a0b\u5e8f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,155,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "MVVM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,77,105)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5e73\u53f0\u5f00\u53d1SDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,120,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u6e20\u9053\u6253\u5305",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,125,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u63a5\u5165\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(35,97,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6c47\u7f16\u8bed\u8a00",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(50,127,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u865a\u62df\u673a\u6280\u672f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,81,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "C\u8bed\u8a00\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,3,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "GIT",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,127,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "App\u6027\u80fd\u4f18\u5316",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,47,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e0a\u67b6\u6d41\u7a0b",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,106,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "xml\u89e3\u6790SQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(35,131,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "MySQL",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,79,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1SDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,11,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e38\u620f\u884c\u4e1a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(100,68,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u5f00\u53d1\u7f51\u7edc\u534f\u8bae",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,46,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "Linux",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,117,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba1\u7b97\u673a\u8f6f\u4ef6\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(3,111,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "Kotlin",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,3,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "Flutter",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,159,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u4fe1\u673a\u5236",
+                    "value": 12,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,79,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u7ba1\u7406\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,80,24)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u4f18\u5316",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(120,149,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u6846\u67b6",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,119,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cfb\u7edf\u6e90\u7801",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(107,20,159)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u6280\u672fLinux",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,92,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "Linux\u5185\u6838",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,64,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5d4c\u5165\u5f0f\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,115,107)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5d4c\u5165\u5f0f\u8f6f\u4ef6\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,58,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9a71\u52a8\u5de5\u7a0b\u5e08\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,0,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "APP\u6027\u80fd",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,90,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u8c03\u4f18",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(85,50,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1\u5de5\u7a0b\u5e08\u719f\u6089android",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,5,64)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e94\u7528\u5f00\u53d1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,67,33)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u624b\u673a\u8f6f\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,145,69)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7a0b\u4e60\u60ef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(94,13,109)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8d1f\u8d23android\u67b6\u6784\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,29,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e38\u620f\u5f15\u64ce",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,99,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "Android",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,20,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Cocos2dx\u5f00\u53d1Objective-c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,158,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u57fa\u7840",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,83,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8c03\u8bd5\u5de5\u5177",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,99,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u6846\u67b6SDK\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,7,38)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u524d\u7aef\u5f00\u53d1Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,95,114)"
+                        }
+                    }
+                },
+                {
+                    "name": "Cocoa",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(141,3,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-cNDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,129,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6846\u67b6\u539f\u7406",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(5,145,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "ui\u5e03\u5c40",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,85,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7cfb\u7edfC\u8bed\u8a00",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,159,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u5f62\u754c\u9762\u7f16\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,64,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "java\u7f16\u7a0b\u57fa\u7840\u8ba1\u7b97\u673a\u56fe\u5f62\u5b66",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(141,112,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(25,47,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u89c9",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,158,48)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u5904\u7406\u76f8\u5173",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,156,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u7ed3\u6784\u9006\u5411\u5de5\u5177",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(35,96,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-cXcode",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,80,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "React Native",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,8,51)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-c\u9a71\u52a8\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(128,5,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "ARM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,63,119)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDIO",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,133,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5d4c\u5165\u5f0f\u64cd\u4f5c\u7cfb\u7edf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,123,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "I2CJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(12,10,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u5b89\u5168",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,150,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba1\u7b97\u673a\u8f6f\u4ef6",
+                    "value": 9,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(52,36,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u57fa\u7840",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(52,27,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u624b\u673a\u8f6f\u4ef6HTML5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(144,136,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5e73\u53f0\u5f00\u53d1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,2,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6027\u80fd\u8c03\u4f18android\u8bbe\u5907",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,147,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u7cfb\u7edf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,54,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u6587\u6863",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,105,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u805a\u5408\u7c7b\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(98,9,146)"
+                        }
+                    }
+                },
+                {
+                    "name": "jni\u5f00\u53d1Flutter",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,134,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089http",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,43,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u7ebf\u7a0b\u6280\u672f\u97f3\u89c6\u9891\u7f16\u89e3\u7801",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(110,16,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u534f\u8bae",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(94,102,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8ba1\u7b97\u673a\u8f6f\u4ef6\u5185\u5b58\u4f18\u5316",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,24,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1\u7f51\u7edc\u534f\u8bae",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,110,95)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b2c\u4e09\u65b9sdk\u4eba\u8138\u8bc6\u522b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,123,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u5177apktool",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(98,55,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53cd\u7f16\u8bd1",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,38,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u52a8\u6001\u8c03\u8bd5",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,120,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089android",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,75,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b9e\u73b0\u539f\u7406Android",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(90,107,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u7f16\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(85,139,95)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u63a5\u5165Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,124,54)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,91,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7ec4\u4ef6\u5c01\u88c5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,5,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "SocketIM\u901a\u8baf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,11,38)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d41\u5a92\u4f53\u6280\u672f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(85,147,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u524d\u7aef\u5f00\u53d1",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(110,154,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u89c6\u9891",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,112,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "OpenGL\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,98,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d77\u5916\u5a92\u4f53\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,74,69)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u6280\u672f",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,146,58)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6df7\u5408\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,20,124)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5e73\u53f0\u5f00\u53d1UI\u7ec4\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,50,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u84dd\u7259\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,145,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "JAVA\u57fa\u7840",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,145,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "app\u5f00\u53d1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,111,114)"
+                        }
+                    }
+                },
+                {
+                    "name": "xposed\u6846\u67b6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,99,79)"
+                        }
+                    }
+                },
+                {
+                    "name": "Xposed",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,35,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7cfb\u7edf",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,87,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDKFlutter",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,36,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "React",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(138,100,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4eba\u8138\u8bc6\u522b",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,106,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "GIT\u5b89\u5353",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,101,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u7aef\u5f00\u53d1Framework",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,46,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u9879\u76ee\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,120,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u5b9a\u4e49\u63a7\u4ef6",
+                    "value": 7,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(13,121,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "ANRAPP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(159,12,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u6280\u672f",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,115,101)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6846\u67b6\u539f\u7406Java",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(94,72,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(96,0,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u52a8\u753b\u52a8\u6f2b",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,71,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "jni\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,130,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u5f00\u53d1\u901a\u4fe1\u673a\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,82,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 11,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,107,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u5b58\u50a8",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,153,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ee3\u7801\u9605\u8bfbSwift\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,140,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089\u8bbe\u8ba1\u6a21\u5f0f",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,132,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8c03\u8bd5\u5de5\u5177\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(7,18,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "AutoLayout",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,73,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b2c\u4e09\u65b9sdk",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,75,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "Instrumentsandroid\u5f00\u53d1\u7ecf\u9a8c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,43,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u517c\u5bb9\u95ee\u9898",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,70,79)"
+                        }
+                    }
+                },
+                {
+                    "name": "debug\u8c03\u8bd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,55,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6027\u80fd\u5206\u6790",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(12,107,71)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u67b6\u6784\u8bbe\u8ba1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(29,62,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089android\u79fb\u52a8\u7aef",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,9,60)"
+                        }
+                    }
+                },
+                {
+                    "name": "SQLite\u6570\u636e\u5e93",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,114,34)"
+                        }
+                    }
+                },
+                {
+                    "name": "xml\u89e3\u6790RxJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(109,136,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5404\u79cd\u63a7\u4ef6",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,140,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bbe\u8ba1\u6a21\u5f0f",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(120,35,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "JAVA\u57fa\u7840\u624e\u5b9e",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,21,9)"
+                        }
+                    }
+                },
+                {
+                    "name": "ServiceSDK\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,41,69)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u63a5\u5165",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,59,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u7ec3\u4f7f\u7528eclipseios\u5f00\u53d1\u5de5\u5177",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(50,23,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "UDP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(107,50,84)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u539f\u7406\u673a\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,138,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(120,130,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5ba2\u6237\u7aef\u5f00\u53d1android\u8f6f\u4ef6\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(144,32,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9ad8\u8d28\u91cf\u4ee3\u7801",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,28,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5e73\u53f0Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,17,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u5177",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,123,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u7ecf\u9a8c\u5b89\u5353\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,72,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(84,28,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "UI",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,6,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "Android\u524d\u7aef\u6280\u672f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,14,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "AndroidSDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,61,158)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089androidSDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,158,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7801\u4e60\u60ef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,131,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u82f1\u6587\u6587\u6863",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,79,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u529f\u80fd\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,100,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6a21\u5757\u8bbe\u8ba1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,69,28)"
+                        }
+                    }
+                },
+                {
+                    "name": "Swift\u8bed\u8a00\u6e38\u620f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,88,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6253\u5305",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(105,68,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7cfb\u7edf\u67b6\u6784",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(24,149,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u53cd\u7f16\u8bd1\u79fb\u52a8\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(16,101,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5c4f\u5e55\u9002\u914d",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,36,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089androidApp\u6027\u80fd\u4f18\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,2,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u7f16\u7a0bAndroidStudio",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,104,51)"
+                        }
+                    }
+                },
+                {
+                    "name": "jni\u63a5\u53e3",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,52,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ee3\u7801\u7ba1\u7406",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,62,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7a0b\u4e60\u60ef\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,157,112)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u624b\u673a\u79fb\u52a8\u5ba2\u6237\u7aef\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,6,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5ba2\u6237\u7aef\u67b6\u6784",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,87,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u7f16\u7a0bMVVM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(20,31,126)"
+                        }
+                    }
+                },
+                {
+                    "name": "IM",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,104,33)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u793e\u4ea4\u7c7bapp",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,1,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "Glide\u624b\u673aapp\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,66,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6df7\u5408APP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,9,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u67b6\u6784\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,159,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8fed\u4ee3\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(133,143,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "ui\u6846\u67b6SDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,127,11)"
+                        }
+                    }
+                },
+                {
+                    "name": "JNI",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,147,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u63a5\u5165\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,50,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "FFmpeg",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(159,83,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u7ebf\u7a0b\u7f16\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,2,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "WebRTC\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,98,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1",
+                    "value": 8,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,76,66)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7ed3\u7b97",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,132,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u62db\u8058SQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(139,27,79)"
+                        }
+                    }
+                },
+                {
+                    "name": "Eclipse",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,120,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1\u6e38\u620f\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(139,126,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDKAndroid",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,30,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "Android\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,137,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u54c1\u5f00\u53d1SQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(130,56,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "JSON",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,79,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u5f62\u754c\u9762\u7f16\u7a0bSwift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,101,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6253\u5305\u53d1\u5e03Java",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,159,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u76f8\u5173",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,79,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u7ecf\u9a8c\u5185\u5b58\u7ba1\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,99,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u7ebf\u7a0b\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,30,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-cIM\u901a\u8baf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(27,125,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u524d\u7aef\u5f00\u53d1\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,99,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDWebImageIM\u901a\u8baf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,48,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5ba2\u6237\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,33,34)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6237\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,70,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u7ecf\u9a8c\u89c6\u9891\u7f16\u89e3\u7801",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,125,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cbe\u901ajava\u8bed\u8a00",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(149,119,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u89e3\u6790",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,130,48)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u63a5\u53e3\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,30,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u63a5\u53e3\u8c03\u8bd5\u67b6\u6784\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(120,83,133)"
+                        }
+                    }
+                },
+                {
+                    "name": "Java\u8ba1\u7b97\u673a\u8f6f\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,114,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "UI\u63a7\u4ef6\u5185\u5b58\u7ba1\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,19,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "SQLite",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,119,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6027\u80fd\u5206\u6790\u5de5\u5177",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,104,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f18\u5316\u4ee3\u7801\u5b89\u5353",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(3,123,136)"
+                        }
+                    }
+                },
+                {
+                    "name": "iOS",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(27,16,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e8c\u6b21\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,47,114)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u8f6f\u4ef6\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,43,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u5f00\u53d1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,12,17)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5e94\u7528\u5f00\u53d1",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,25,24)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7cfb\u7edf\u67b6\u6784\u5e94\u7528\u67b6\u6784\u8bbe\u8ba1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(118,160,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "Studio",
+                    "value": 5,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,139,89)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u4ea4\u4e92\u79fb\u52a8\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,94,95)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089androidndk\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,145,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u7a0b\u5e08\u5d4c\u5165\u5f0f\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,22,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5355\u7247\u673a\u7814\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,109,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,28,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u5e93Objective-c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(41,12,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u76f8\u5173",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(110,120,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b2c\u4e09\u65b9SDK\u63a5\u5165",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,16,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u9875\u4ea4\u4e92android\u9ad8\u7ea7",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,61,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u4ea7\u54c1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,79,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "Service\u652f\u4ed8",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,112,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u5b58\u50a8\u8fed\u4ee3\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,49,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u76f4\u64ad\u76f8\u5173",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(147,23,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u7ecf\u9a8c\u67b6\u6784\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,92,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d77\u5916\u5a92\u4f53",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,46,156)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u6cc4\u9732Java",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,151,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "ndk\u5f00\u53d1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(0,151,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u97f3\u89c6\u9891\u5f00\u53d1Android",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(123,41,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,51,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5bb9",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(112,125,84)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5728\u7ebf\u4ea4\u6d41\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,76,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "React NativeSwift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,43,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-cKotlin",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,54,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u6cc4\u6f0f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,38,69)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b2c\u4e09\u65b9\u6846\u67b6SQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,123,119)"
+                        }
+                    }
+                },
+                {
+                    "name": "XML",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,22,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "ui\u5e03\u5c40\u52a0\u89e3\u5bc6\u6280\u672f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,107,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u52a0\u56fa",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,9,51)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u76f8\u5173\u4ee3\u7801",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(118,82,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5e73\u53f0SDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,76,130)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u63a5\u5165android\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,120,147)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u624b\u6e38\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,74,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6027\u80fd\u8c03\u4f18",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,144,12)"
+                        }
+                    }
+                },
+                {
+                    "name": "SocketJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(137,101,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u5b9a\u4e49\u63a7\u4ef6\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(138,115,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "SVN",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(158,151,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "Java\u539f\u751f\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,13,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5b89\u5353ui",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(94,135,126)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5b66\u4e60HTML5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,60,88)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e8b\u4ef6\u5206\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,46,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u7ba1\u7406\u6e38\u620f\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(81,57,33)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353ui",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(152,153,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1NDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,38,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u539f\u751fapp",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,160,151)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8d1f\u8d23android\u6570\u636e\u53ef\u89c6\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(109,98,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u6e38\u620f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(88,72,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5f00\u53d1\u5de5\u7a0b\u5e08\u5b89\u5353",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,144,140)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1",
+                    "value": 6,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,60,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "SQLite\u6570\u636e\u5e93Python",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,37,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5e73\u53f0\u5f00\u53d1",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(118,43,38)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1\u5de5\u7a0b\u5e08\u79fb\u52a8\u7aef",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,47,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u56db\u5927\u7ec4\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(107,117,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "Gradle",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,150,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u7a0b\u5e08SDK",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,5,25)"
+                        }
+                    }
+                },
+                {
+                    "name": "json\u89e3\u6790",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,102,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u63a5\u5165SDK\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,137,11)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4f18\u5316\u91cd\u6784",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,65,110)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6253\u5305\u5de5\u5177Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(88,54,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7801\u98ce\u683c\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(53,85,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7248\u672c",
+                    "value": 3,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,104,39)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1\u97f3\u89c6\u9891\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,2,107)"
+                        }
+                    }
+                },
+                {
+                    "name": "sdk\u96c6\u6210OpenGL",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,24,41)"
+                        }
+                    }
+                },
+                {
+                    "name": "Uikit",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,27,123)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5de5\u7a0b\u5e08\u67b6\u6784\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(150,28,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5373\u65f6\u901a\u8baf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,28,64)"
+                        }
+                    }
+                },
+                {
+                    "name": "Android\u7b2c\u4e09\u65b9sdk",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,3,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u652f\u4ed8sdk",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,20,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e7f\u544asdk\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,50,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5f00\u53d1\u5de5\u7a0b\u5e08Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(139,127,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "Java\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(108,34,30)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u5f00\u53d1ios\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,88,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u624b\u673a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,144,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089php\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,123,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7f51\u7edc",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(156,47,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "andriod\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,23,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1Framework",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,118,88)"
+                        }
+                    }
+                },
+                {
+                    "name": "API",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(0,61,111)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u6e90\u7801",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,4,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5404\u79cd\u63a7\u4ef6AndroidStudio",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,160,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u547d\u540d\u89c4\u8303\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(38,1,83)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u67b6\u6784\u5e08android\u56db\u5927\u7ec4\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(141,20,121)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u8f6f\u4ef6\u5f00\u53d1Kotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,13,44)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7cfb\u7edf\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,145,79)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u8bbe\u8ba1\u6a21\u5f0f\u79fb\u52a8\u7aef",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,50,52)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u57fa\u7840\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(22,97,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5f00\u53d1\u5de5\u7a0b\u5e08\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(134,20,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e38\u620f\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(116,58,81)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u70ed\u4fee\u590d",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(132,0,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089mvc",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(133,23,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "MVP",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,44,132)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u624b\u673a\u5f00\u53d1Kotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,66,94)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u7ecf\u9a8candroid\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,107,91)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u901a\u4fe1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,75,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7a0b\u4e60\u60ef\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,138,100)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u7ba1\u7406\u673a\u5236Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,5,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e90\u7801\u9605\u8bfbJava",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,90,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u7ba1\u7406",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(87,78,27)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u62db\u8058\u5b89\u5353",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(67,50,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u534f\u8baeJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,152,97)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u7ecf\u9a8cJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,9,15)"
+                        }
+                    }
+                },
+                {
+                    "name": "NDK",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,12,145)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7801\u98ce\u683c",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(15,0,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u7ecf\u9a8cFlutter",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,100,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u793e\u4ea4\u7535\u5546",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,96,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8bbe\u8ba1\u6a21\u5f0f\u4e8b\u4ef6\u4f20\u9012",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,26,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "xml\u6570\u636e",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(51,36,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089android\u7f51\u7edc\u534f\u8bae",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,111,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "Mtk\u5e73\u53f0",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,105,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1C#",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,70,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "ERP",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,79,23)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u624b\u673a\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,102,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8de8\u5e73\u53f0\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,30,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-cSocket",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,83,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u4fe1\u52a0\u5bc6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,12,69)"
+                        }
+                    }
+                },
+                {
+                    "name": "app\u5ba2\u6237\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(19,103,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "Androidios\u7814\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,18,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9879\u76ee\u4ee3\u7801",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(121,139,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u5de5\u7a0b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(105,14,33)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u5de5\u4f5c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(103,86,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ea7\u54c1\u8fed\u4ee3Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,106,49)"
+                        }
+                    }
+                },
+                {
+                    "name": "Hybrid\u540e\u7aef\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,73,22)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u9879\u76eeJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,32,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "Dex2jar",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(71,29,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDKRxJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,108,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u7a0b\u5e08\u5b89\u5353APP\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,122,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56fe\u50cf\u8bc6\u522b",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,146,14)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089\u624b\u673aSocket",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(49,111,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e8b\u4ef6\u5206\u53d1\u673a\u5236Java",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,78,70)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1SDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(140,17,52)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u5f00\u53d1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(33,35,160)"
+                        }
+                    }
+                },
+                {
+                    "name": "Glide",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,144,96)"
+                        }
+                    }
+                },
+                {
+                    "name": "OKhttp\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(107,8,56)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1Flutter",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(126,71,114)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089\u591a\u7ebf\u7a0bReact Native",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(82,111,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "Http\u534f\u8bae",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,100,141)"
+                        }
+                    }
+                },
+                {
+                    "name": "Native",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(27,158,98)"
+                        }
+                    }
+                },
+                {
+                    "name": "json\u683c\u5f0fjni\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(90,60,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089androidJNI",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,151,138)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5e94\u7528\u8f6f\u4ef6",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(24,151,40)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089androidSQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,94,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5404\u79cd\u63a7\u4ef6Socket",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,83,68)"
+                        }
+                    }
+                },
+                {
+                    "name": "AndroidStudio",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,142,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8d23\u4efb\u5fc3\u5f3aSDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(44,50,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6a21\u5757\u529f\u80fd",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(101,87,73)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u9700\u6c42\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,86,158)"
+                        }
+                    }
+                },
+                {
+                    "name": "UI\u7cbe\u901aandroid",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,128,137)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u57fa\u672c\u7ec4\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,53,9)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u8bbe\u8ba1\u6a21\u5f0f\u673a\u578b\u9002\u914d",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(24,145,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "MediaCodec",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(113,27,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u97f3\u89c6\u9891\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(143,148,16)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5e94\u7528\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,84,79)"
+                        }
+                    }
+                },
+                {
+                    "name": "FFmpeg\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,137,80)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u6846\u67b6\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,141,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1\u5b89\u5353",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(9,106,30)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089httpJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(28,90,155)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u4efb\u52a1\u67b6\u6784\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(17,52,143)"
+                        }
+                    }
+                },
+                {
+                    "name": "LeakCanarySDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,81,10)"
+                        }
+                    }
+                },
+                {
+                    "name": "SQL",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(89,125,127)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u52a8\u753b\u7279\u6548",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,146,67)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u7ec3\u638c\u63e1javaSQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(32,136,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "Java\u81ea\u5b9a\u4e49\u63a7\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,6,1)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u63a7\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,71,87)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6d88\u606f\u673a\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(6,159,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1RxJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,58,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u67b6\u6784",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(145,99,76)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6781\u5149\u63a8\u9001\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,65,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "xcode\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(8,106,59)"
+                        }
+                    }
+                },
+                {
+                    "name": "React Native\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(93,46,8)"
+                        }
+                    }
+                },
+                {
+                    "name": "SQLiteRetrofit",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,114,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u76f8\u5173Framework",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,131,103)"
+                        }
+                    }
+                },
+                {
+                    "name": "Java\u7f16\u7a0bJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(83,72,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u539f\u751f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(29,45,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u7ecf\u9a8cNDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(31,19,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u56db\u5927\u7ec4\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,21,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDKSDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(133,59,47)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u901a\u8baf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(105,22,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e91\u7aef\u5f00\u53d1SDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(60,16,74)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e73\u53f0\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(26,57,154)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6e38\u620f\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(85,72,11)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u4fe1\u673a\u5236Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,13,63)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u533a\u5757\u94fe\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(36,149,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u7a0b\u5e08Xcode",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(40,115,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e95\u5c42api\u67b6\u6784\u4f53\u7cfb",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,141,69)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b97\u6cd5\u76f8\u5173",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(34,51,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(46,21,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u7ecf\u9a8c",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(18,54,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "JavaKotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,69,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6846\u67b6\u539f\u7406\u6df7\u5408\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(58,26,21)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5de5\u7a0b\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(106,38,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ee3\u7801\u8d28\u91cf",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(66,124,106)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b2c\u4e09\u65b9sdkC++",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(88,16,24)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ee3\u7801\u6df7\u6dc6",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(23,28,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u82f9\u679c\u5546\u5e97",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,77,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e94\u7528\u4e0a\u7ebfAndroidStudio",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(75,0,82)"
+                        }
+                    }
+                },
+                {
+                    "name": "app\u9879\u76ee",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,36,150)"
+                        }
+                    }
+                },
+                {
+                    "name": "AndroidSQLite",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(45,22,128)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u667a\u80fd\u786c\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(56,81,113)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u7aefxcode\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,107,13)"
+                        }
+                    }
+                },
+                {
+                    "name": "OpenGL",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(70,103,75)"
+                        }
+                    }
+                },
+                {
+                    "name": "ios\u5de5\u7a0b\u5e08Android",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(7,128,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u79fb\u52a8\u7aef\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(95,151,65)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7a0b\u57fa\u7840",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(104,141,6)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6848\u4f8b\u5c55\u793aUikit",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,159,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u7ebf\u7a0b\u5904\u7406Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,140,62)"
+                        }
+                    }
+                },
+                {
+                    "name": "Swift\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(73,153,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u7ba1\u7406",
+                    "value": 4,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(68,14,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u7ebf\u7a0b\u5f00\u53d1\u524d\u7aef\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(79,46,31)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u754c\u9762\u7ed8\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(1,148,92)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socketandroid\u5e94\u7528\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,96,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u9ad8\u7ea7",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,54,158)"
+                        }
+                    }
+                },
+                {
+                    "name": "UART\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(102,66,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u7f51\u7edc\u7f16\u7a0b\u7f51\u7edc\u534f\u8bae",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,74,142)"
+                        }
+                    }
+                },
+                {
+                    "name": "Shell",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(92,91,32)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5206\u5e03\u5f0f\u6280\u672fndk\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(62,33,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7ec4\u4ef6\u751f\u547d\u5468\u671f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(52,15,53)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u8bbe\u8ba1\u6a21\u5f0fandroid\u8f6f\u4ef6\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(42,26,157)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5e94\u7528\u7a0b\u5e8f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(64,0,3)"
+                        }
+                    }
+                },
+                {
+                    "name": "app\u7814\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,147,126)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u97f3\u89c6\u9891\u76f4\u64adFramework",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(122,128,84)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u4fe1\u673a\u5236\u901a\u4fe1\u673a\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(129,97,29)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7801\u89c4\u8303Xcode",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,149,2)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6253\u5305\u53d1\u5e03",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,64,134)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u84dd\u7259",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(115,89,61)"
+                        }
+                    }
+                },
+                {
+                    "name": "Framework\u5b89\u5353",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(57,135,37)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u8bbe\u8ba1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(37,53,38)"
+                        }
+                    }
+                },
+                {
+                    "name": "AndroidJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(77,37,90)"
+                        }
+                    }
+                },
+                {
+                    "name": "C#",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(78,85,89)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u8f6f\u4ef6\u5f00\u53d1C++",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(48,40,77)"
+                        }
+                    }
+                },
+                {
+                    "name": "Objective-c\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(4,158,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8f6f\u4ef6\u6027\u80fd\u4f18\u5316Swift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,127,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5ba2\u6237\u7aef\u5f00\u53d1",
+                    "value": 2,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(114,52,104)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5185\u5b58\u6ea2\u51fa",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(135,154,36)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u6570\u636e\u7ed3\u6784",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,6,159)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDK\u97f3\u9891",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(136,33,115)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u5b9a\u4e49\u7ec4\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(19,126,108)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u8bbe\u8ba1\u6a21\u5f0fKotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,123,86)"
+                        }
+                    }
+                },
+                {
+                    "name": "Jenkins",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,156,49)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5168\u6808\u5f00\u53d1NDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(69,13,50)"
+                        }
+                    }
+                },
+                {
+                    "name": "UISwift",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(155,112,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "ui\u5f00\u53d1\u901a\u4fe1\u673a\u5236",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,4,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5f00\u53d1\u5de5\u7a0b\u5e08JNI",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,60,107)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u81ea\u5b9a\u4e49\u52a8\u753b\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(72,95,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6df7\u5408APPSDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(111,4,118)"
+                        }
+                    }
+                },
+                {
+                    "name": "java\u5f00\u53d1\u8bed\u8a00",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,46,119)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u53d1\u73af\u5883Framework",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,108,153)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u591a\u7ebf\u7a0b\u7f16\u7a0b\u81ea\u5b9a\u4e49view",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,82,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "Gson\u67b6\u6784\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(11,92,135)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6570\u636e\u5e93\u6846\u67b6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,69,117)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f16\u7801\u98ce\u683cKotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(2,114,20)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6df7\u5408\u5f00\u53d1\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,21,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u7a0b\u5e08JavaScript",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,160,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "HTML",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,113,159)"
+                        }
+                    }
+                },
+                {
+                    "name": "Java\u4e8b\u4ef6\u4f20\u9012",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(157,108,12)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1UI\u63a7\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,39,55)"
+                        }
+                    }
+                },
+                {
+                    "name": "app\u5e94\u7528\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(151,86,131)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5373\u65f6\u901a\u4fe1Framework",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(148,34,85)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e94\u7528\u5e02\u573a",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(65,4,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u8d1f\u8d23android",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(97,60,120)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5355\u5143\u6d4b\u8bd5\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,16,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1\u5de5\u7a0b\u5e08\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,19,7)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u901a\u4fe1\u673a\u5236\u81ea\u5b9a\u4e49\u63a7\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(124,146,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "ui\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(125,35,46)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7cbe\u901aandroidGIT",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(61,60,57)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1Flutter",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(44,155,139)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u540e\u7aef\u5f00\u53d1android\u5e94\u7528\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,116,42)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u5f00\u53d1Kotlin",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(30,143,99)"
+                        }
+                    }
+                },
+                {
+                    "name": "Jetpack",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,3,152)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u6e90\u5e93",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(160,42,26)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u6e90\u9879\u76ee",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(54,2,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u6280\u672f\u535a\u5ba2\u79fb\u52a8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,54,72)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u70ed\u7231\u8f6f\u4ef6\u5f00\u53d1\u5185\u5b58\u4f18\u5316",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(76,85,122)"
+                        }
+                    }
+                },
+                {
+                    "name": "activity\u751f\u547d\u5468\u671f",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(146,97,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "WebView",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(90,12,78)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e94\u7528\u6846\u67b6\u6e38\u620f\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(39,51,144)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7b2c\u4e09\u65b9\u767b\u5f55",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(107,103,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4e0a\u67b6\u6d41\u7a0bRxJava",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(154,45,35)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7f51\u7edc\u8bf7\u6c42",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(153,32,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "Socket\u901a\u4fe1\u6c47\u7f16\u8bed\u8a00",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(99,138,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5bc6\u7801\u7b97\u6cd5",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(44,117,149)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u6089androidXcode",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(91,10,129)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u4ee3\u7801\u8d28\u91cfNDK",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(43,160,125)"
+                        }
+                    }
+                },
+                {
+                    "name": "Cordova",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(59,82,102)"
+                        }
+                    }
+                },
+                {
+                    "name": "ui\u5f00\u53d1\u5b89\u5353\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(100,66,116)"
+                        }
+                    }
+                },
+                {
+                    "name": "Http\u534f\u8baeandroid\u7f51\u7edc",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(137,155,148)"
+                        }
+                    }
+                },
+                {
+                    "name": "SDKFramework\u5c42",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(86,100,43)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u7c7b\u52a0\u8f7d\u673a\u5236\u670d\u52a1\u5668\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(21,98,19)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5e38\u7528\u7ec4\u4ef6",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(14,87,138)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u719f\u7ec3\u4f7f\u7528java",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(117,53,4)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5f00\u6e90\u6846\u67b6ndk\u5f00\u53d1",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(80,75,45)"
+                        }
+                    }
+                },
+                {
+                    "name": "\u5b89\u5353\u5e73\u53f0android\u5f00\u53d1\u5de5\u7a0b\u5e08",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(119,91,93)"
+                        }
+                    }
+                },
+                {
+                    "name": "android\u7ec8\u7aef",
+                    "value": 1,
+                    "textStyle": {
+                        "normal": {
+                            "color": "rgb(10,103,95)"
+                        }
+                    }
+                }
+            ],
+            "drawOutOfBound": false,
+            "textStyle": {
+                "emphasis": {}
+            }
+        }
+    ],
+    "legend": [
+        {
+            "data": [],
+            "selected": {},
+            "show": true,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "showContent": true,
+        "alwaysShowContent": false,
+        "showDelay": 0,
+        "hideDelay": 100,
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0,
+        "padding": 5
+    },
+    "title": [
+        {
+            "text": "Android\u5206\u6790",
+            "padding": 5,
+            "itemGap": 10,
+            "textStyle": {
+                "fontSize": 23
+            }
+        }
+    ]
+};
+        chart_52359700c5e4425196872ecd7f4a4778.setOption(option_52359700c5e4425196872ecd7f4a4778);
+        
+        
+    </script>
+{% endblock %}
+</body>
+</html>
